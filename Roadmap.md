@@ -30,19 +30,15 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 ---
 
 ## 🏗️ **Foundations** <sub>*.. the building blocks*</sub>
+We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond <i>rushing through tutorials</i> and instead focus on <b>genuine effort and deep understanding</b> so that working with data and code feels natural.
+   
+          🔥 Priority         ⭐ Difficulty            M = Mandatory · O = Optional              🟢 Easy · 🟡 Medium · 🔴 Hard
+
+ 
+ 
 <details>
-<summary>We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond <i>rushing through tutorials</i> and instead focus on <b>genuine effort and deep understanding</b> so that working with data and code feels natural.</summary>
-
-📅 Estimated Timeline: ~6–9 Months (Deep Dive)
-*Note: Progress depends on prior experience and weekly time commitment. Quality of understanding > Speed of completion.*
-
-    🔥 Priority · ⭐ Difficulty                M = Mandatory · O = Optional                🟢 Easy · 🟡 Medium · 🔴 Hard
-
-<details>
-<summary>🏗️ Foundation (Core Engineering)</summary>
+<summary>🧰 Core Engineering </summary>
   
-> Build core engineering skills required for data work
-
 | Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🐧 Linux / CLI Basics | Fundamentals | M | ⭐⭐ | 🟢 | 1–2 | Navigate systems and automate tasks | [link]() |
@@ -51,7 +47,12 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 | 🔥 | 🐍 Python | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Write scripts to process and transform data | [link]() |
 |  | 🌐 Networking Basics | Fundamentals | O | ⭐⭐ | 🟢 | 1 | Understand system communication | [link]() |
 
+📅 Estimated Timeline: ~6–9 Months (Deep Dive)
+
 </details>
+
+
+
 
 <details>
 <summary>💾 Data Storage & Design</summary>
@@ -122,8 +123,10 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 |  | 📈 Platform Observability Strategy | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | End-to-end monitoring | [link]() |
 |  | 🆘 Disaster Recovery | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | Failover and resilience | [link]() |
 
+
 </details>
-</details>
+
+ *Note: Progress depends on prior experience and weekly time commitment. Quality of understanding > Speed of completion.*
 
 ---
 
@@ -140,8 +143,8 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 5. **Modeling:** Load it into a **Lakehouse** using a Star Schema.
 6. **Orchestration:** Schedule the whole flow using **Airflow**.
 7. **Reliability:** Implement **Data Quality** checks (e.g., Great Expectations) and **Logging**.
-
 </details>
+
 
 ---
 
