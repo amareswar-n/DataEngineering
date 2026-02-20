@@ -186,12 +186,3 @@ We’re building your expertise from the ground up so that working with code and
 
 ---
 
-
-
-
- <details>
-
-   <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/4880cb82-97b2-4b52-b49c-edea05622bde" />
-   <summary> more (...) </summary> 
- </details>
-
