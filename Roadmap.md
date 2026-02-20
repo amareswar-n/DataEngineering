@@ -2,7 +2,9 @@
 *This roadmap guides you from beginner to senior data engineer in clear phases, based on real industry experience and hiring expectations.*
 
 ## 🧭 **Exploration** <sub>*.. clarity not any skill* </sub>
-Before learning anything. Make sure you understand the role clearly so you know what you’re signing up for before investing your time and effort.
+
+<details>
+<summary> Before learning anything. Make sure you understand the role clearly so you know what you’re signing up for before investing your time and effort.</summary>
 
 **Data engineering**, is not not about flashy visuals, dashboards or charts — it’s about systems, pipelines, fixing issues, and working behind the scenes. 
 It’s about <b>building the data foundation</b> that everything else depends on.
@@ -23,28 +25,25 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
   - [ ]  “**No** — this isn’t for me, and that’s okay.”
     
 *Choose one that matters most and be honest with yourself. Ignore hype and salary — ask whether you would genuinely enjoy doing this work every week.*
+</details>
+
+---
 
 ## 🏗️ **Foundations** <sub>*.. the building blocks*</sub>
-We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond "rushing through tutorials" and instead focus on **genuine effort and deep understanding** so that working with data and code feels natural.
+<details>
+<summary>We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond <i>rushing through tutorials</i> and instead focus on <b>genuine effort and deep understanding</b> so that working with data and code feels natural.</summary>
 
 📅 Estimated Timeline: ~6–9 Months (Deep Dive)
 *Note: Progress depends on prior experience and weekly time commitment. Quality of understanding > Speed of completion.*
 
-# 🚀 Data Engineering Roadmap (FAANG-style)
+    🔥 Priority · ⭐ Difficulty                M = Mandatory · O = Optional                🟢 Easy · 🟡 Medium · 🔴 Hard
 
-## ⭐ Legend
-M = Mandatory · O = Optional  
-🔥 Priority · ⭐ Difficulty  
-🟢 Easy · 🟡 Medium · 🔴 Hard
-
----
-
-<details open>
-<summary>🏗️ Phase 1 — Foundation (Core Engineering)</summary>
-
+<details>
+<summary>🏗️ Foundation (Core Engineering)</summary>
+  
 > Build core engineering skills required for data work
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🐧 Linux / CLI Basics | Fundamentals | M | ⭐⭐ | 🟢 | 1–2 | Navigate systems and automate tasks | [link]() |
 | 🔥 | 🌿 Git & GitHub | Fundamentals | M | ⭐⭐ | 🟢 | 1 | Track changes and manage code professionally | [link]() |
@@ -54,14 +53,12 @@ M = Mandatory · O = Optional
 
 </details>
 
----
-
 <details>
-<summary>💾 Phase 2 — Data Storage & Design</summary>
+<summary>💾 Data Storage & Design</summary>
 
 > Structure and store data efficiently
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🗄️ Databases | Concepts | M | ⭐⭐⭐ | 🟡 | 2–3 | Understand storage and indexing | [link]() |
 | 🔥 | 🧮 SQL | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Work with data using SQL | [link]() |
@@ -73,14 +70,12 @@ M = Mandatory · O = Optional
 
 </details>
 
----
-
 <details>
-<summary>⚙️ Phase 3 — Data Processing & Pipelines</summary>
+<summary>⚙️ Data Processing & Pipelines</summary>
 
 > Move data at scale
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🔗 APIs & Data Integration | Fundamentals | M | ⭐⭐⭐ | 🟡 | 2 | Extract data from systems | [link]() |
 | 🔥 | 🔄 ETL / ELT Concepts | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Data transformation patterns | [link]() |
@@ -92,14 +87,12 @@ M = Mandatory · O = Optional
 
 </details>
 
----
-
 <details>
-<summary>☁️ Phase 4 — Infrastructure & Reliability</summary>
+<summary>☁️ Infrastructure & Reliability</summary>
 
 > Secure, scalable, observable systems
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | ☁️ Cloud Fundamentals | Fundamentals | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Core cloud data services | [link]() |
 |  | 🐳 Docker Basics | Fundamentals | O | ⭐⭐⭐ | 🟡 | 1–2 | Containerisation | [link]() |
@@ -113,14 +106,12 @@ M = Mandatory · O = Optional
 
 </details>
 
----
-
 <details>
-<summary>🚀 Phase 5 — Advanced Platform & Architecture</summary>
+<summary>🚀 Advanced Platform & Architecture</summary>
 
 > Enterprise-scale data platform design
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🧱 Medallion Architecture | Architecture | M | ⭐⭐⭐⭐ | 🔴 | 2 | Bronze–Silver–Gold design | [link]() |
 |  | 🕸️ Data Mesh Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Domain-driven data ownership | [link]() |
@@ -132,11 +123,16 @@ M = Mandatory · O = Optional
 |  | 🆘 Disaster Recovery | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | Failover and resilience | [link]() |
 
 </details>
+</details>
+
 ---
 
-## 🚀 The "End Game" Capstone Project
-To graduate from this roadmap, build a single project that integrates these skills:
+## 🎯 **UDIM - Capstone Project** <sub>*.. the end* </sub>
 
+<details>
+<summary>This is where learning stops being theoretical. Projects are how you turn concepts, tools, and code into <b>real understanding</b>.</summary>
+
+**One solid project is enough** if it’s done properly.
 1. **Extraction:** Scrape a public API using **Python** (e.g., Weather or Finance data).
 2. **Containerization:** Wrap your scraper in a **Docker** container.
 3. **Storage:** Land the raw data in a **Cloud Bucket** (S3/GCS) in **JSON** format.
@@ -144,6 +140,18 @@ To graduate from this roadmap, build a single project that integrates these skil
 5. **Modeling:** Load it into a **Lakehouse** using a Star Schema.
 6. **Orchestration:** Schedule the whole flow using **Airflow**.
 7. **Reliability:** Implement **Data Quality** checks (e.g., Great Expectations) and **Logging**.
+
+</details>
+
+---
+
+## 💼 **Interview Prep** <sub>*.. prepare and get hired* </sub>
+
+<details>
+<summary>At this point, you won’t know 100% of data engineering, and that’s completely normal. The good news is you already have around 70% of the skills needed to start applying. There’s no reason to wait anymore. Now it’s time to prepare yourself, put your profile together, and start applying for jobs.</summary>
+
+
+
 
 ---
 
@@ -154,14 +162,12 @@ To graduate from this roadmap, build a single project that integrates these skil
 4. **Master the foundations:** Don't move to Spark until your SQL is solid. Don't move to Airflow until your Python is clean.
 
 ---
+
 *“Mastery is not a function of genius or talent, it is a function of time and intense focus.”*
 
 
-🎯 
-
-
  <details>
-**✨Notes**
+
    <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/4880cb82-97b2-4b52-b49c-edea05622bde" />
    <summary> more (...) </summary> 
  </details>
