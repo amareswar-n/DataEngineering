@@ -37,38 +37,35 @@ We’re building your expertise from the ground up so that working with code and
 
 <details>
 <summary>🧰 Core Engineering </summary>
-
   
-| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢🟡🔴) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
-|:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
-| 🔥 | 🐧 Linux / CLI Basics | Fundamentals | M | ⭐⭐ | 🟢 | 1–2 | Navigate systems and automate tasks | [link]() |
-| 🔥 | 🌿 Git & GitHub | Fundamentals | M | ⭐⭐ | 🟢 | 1 | Track changes and manage code professionally | [link]() |
-|  | 📜 Shell Scripting Basics | Coding | O | ⭐⭐ | 🟢 | 1 | Automate repetitive tasks | [link]() |
-| 🔥 | 🐍 Python | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Write scripts to process and transform data | [link]() |
-|  | 🌐 Networking Basics | Fundamentals | O | ⭐⭐ | 🟢 | 1 | Understand system communication | [link]() |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req | ⭐ Diff | 🎚️ Level | ⏱️ Weeks | 📝 Notes | 🔗 Study Link | 📚 Book |
+|:--:|------|----------|:--:|:--:|:--:|:--:|------|------|------|
+| 🔥 | 🐧 Linux / CLI Basics | Fundamentals | M | ⭐⭐ | 🟢 | 1–2 | Navigate systems | | The Linux Command Line — Shotts |
+| 🔥 | 🌿 Git & GitHub | Fundamentals | M | ⭐⭐ | 🟢 | 1 | Version control | | Pro Git — Chacon |
+|  | 📜 Shell Scripting | Coding | O | ⭐⭐ | 🟢 | 1 | Automation | | Bash Cookbook — Albing |
+| 🔥 | 🐍 Python | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Data scripting | | Fluent Python — Ramalho |
+|  | 🌐 Networking | Fundamentals | O | ⭐⭐ | 🟢 | 1 | System communication | | Computer Networking — Kurose |
 
 📅 Estimated Timeline: ~6–9 Months (Deep Dive)
 
 </details>
-
-
-
 
 <details>
 <summary>💾 Data Storage & Design</summary>
 
 > Structure and store data efficiently
 
-| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
-|:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
-| 🔥 | 🗄️ Databases | Concepts | M | ⭐⭐⭐ | 🟡 | 2–3 | Understand storage and indexing | [link]() |
-| 🔥 | 🧮 SQL | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Work with data using SQL | [link]() |
-| 🔥 | 🧩 Data Modelling | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Design schemas and relationships | [link]() |
-| 🔥 | 🏗️ dbt (Data Build Tool) | Transformation | M | ⭐⭐⭐ | 🟡 | 1–2 | Transform, test, and document data in warehouses | [link]() |
-|  | 📄 File Formats | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Impact of formats on pipelines | [link]() |
-|  | 📚 NoSQL Fundamentals | Concepts | O | ⭐⭐⭐ | 🟡 | 2 | When to use different stores | [link]() |
-| 🔥 | 🏢 Data Warehousing | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Analytical storage and querying | [link]() |
-| 🔥 | 🏞️ Data Lakehouse Architecture | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Warehouse → Lakehouse shift | [link]() |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req | ⭐ Diff | 🎚️ Level | ⏱️ Weeks | 📝 Notes | 🔗 Study Link | 📚 Book |
+|:--:|------|----------|:--:|:--:|:--:|:--:|------|------|------|
+| 🔥 | 🗄️ Databases | Concepts | M | ⭐⭐⭐ | 🟡 | 2–3 | Storage | | Database System Concepts — Silberschatz |
+| 🔥 | 🧮 SQL | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Querying | | SQL Performance Explained — Winand |
+| 🔥 | 🧩 Data Modelling | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Schema design | | Data Modeling Made Simple — Hoberman |
+| 🔥 | 🏗️ dbt | Transformation | M | ⭐⭐⭐ | 🟡 | 1–2 | Warehouse transforms | | Analytics Engineering — S. Smith |
+| 🔥 | 📜 Data Contracts | Governance | M | ⭐⭐⭐ | 🟡 | 1–2 | Schema guarantees | | Designing Data-Intensive Apps — Kleppmann |
+| 🔥 | 🗂️ Metadata & Catalog | Platform | M | ⭐⭐⭐ | 🟡 | 1–2 | Lineage | | Fundamentals of Data Engineering — Reis |
+| 🔥 | 🏢 Warehousing | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Analytics store | | Data Warehouse Toolkit — Kimball |
+| 🔥 | 🏞️ Lakehouse | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Delta/Iceberg | | Lakehouse Architecture — Vohra ||
+
 
 </details>
 
@@ -77,15 +74,14 @@ We’re building your expertise from the ground up so that working with code and
 
 > Move data at scale
 
-| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
-|:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
-| 🔥 | 🔗 APIs & Data Integration | Fundamentals | M | ⭐⭐⭐ | 🟡 | 2 | Extract data from systems | [link]() |
-| 🔥 | 🔄 ETL / ELT Concepts | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Data transformation patterns | [link]() |
-|  | 📡 Batch vs Streaming | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Processing paradigms | [link]() |
-| 🔥 | ⚡ Compute Engines (Spark/Flink) | Fundamentals | M | ⭐⭐⭐⭐⭐ | 🔴 | 4–6 | Distributed processing | [link]() |
-|  | 📨 Message Queues | Concepts | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Event-driven architecture | [link]() |
-|  | 🎯 Orchestration (Airflow) | Concepts | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Workflow scheduling | [link]() |
-| 🔥 | ✅ Data Quality | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Validate data correctness | [link]() |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req | ⭐ Diff | 🎚️ Level | ⏱️ Weeks | 📝 Notes | 🔗 Study Link | 📚 Book |
+|:--:|------|----------|:--:|:--:|:--:|:--:|------|------|------|
+| 🔥 | 🔗 APIs | Fundamentals | M | ⭐⭐⭐ | 🟡 | 2 | Integration | | API Design Patterns — Geewax |
+| 🔥 | 🔄 ETL / ELT | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Pipelines | | Fundamentals of Data Engineering — Reis |
+| 🔥 | 🔁 CDC | Streaming | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | DB change capture | | Kafka: The Definitive Guide — Narkhede |
+| 🔥 | ⚡ Spark | Compute | M | ⭐⭐⭐⭐⭐ | 🔴 | 4–6 | Distributed compute | | Spark Definitive Guide — Chambers |
+| 🔥 | 📨 Kafka | Streaming | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Event pipelines | | Kafka in Action — Stopford |
+| 🔥 | 🎯 Airflow | Orchestration | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Scheduling | | Data Pipelines Pocket Reference — Densmore |
 
 </details>
 
@@ -94,17 +90,14 @@ We’re building your expertise from the ground up so that working with code and
 
 > Secure, scalable, observable systems
 
-| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
-|:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
-| 🔥 | ☁️ Cloud Fundamentals | Fundamentals | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Core cloud data services | [link]() |
-|  | 🐳 Docker Basics | Fundamentals | O | ⭐⭐⭐ | 🟡 | 1–2 | Containerisation | [link]() |
-| 🔥 | 🐞 Logging & Debugging | Fundamentals | M | ⭐⭐⭐ | 🟡 | 1–2 | Diagnose pipeline failures | [link]() |
-|  | 📊 Observability & Monitoring | Fundamentals | O | ⭐⭐⭐ | 🟡 | 1–2 | Monitor pipelines | [link]() |
-|  | 🧪 Testing Fundamentals | Coding | O | ⭐⭐⭐ | 🟡 | 1–2 | Pipeline reliability | [link]() |
-|  | 🔐 Security & Access Control | Concepts | O | ⭐⭐ | 🟢 | 1–2 | Permission management | [link]() |
-| 🔥 | 🛡️ Data Governance & Privacy | Concepts | M | ⭐⭐ | 🟢 | 1–2 | Compliance and lineage | [link]() |
-|  | 🚀 CI/CD Fundamentals | Fundamentals | O | ⭐⭐⭐ | 🟡 | 2 | Automated deployments | [link]() |
-|  | 🏗️ Infrastructure as Code | Fundamentals | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Terraform provisioning | [link]() |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req | ⭐ Diff | 🎚️ Level | ⏱️ Weeks | 📝 Notes | 🔗 Study Link | 📚 Book |
+|:--:|------|----------|:--:|:--:|:--:|:--:|------|------|------|
+| 🔥 | ☁️ Cloud | Infra | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Cloud data services | | Cloud Architecture Patterns — Fehling |
+| 🔥 | 📊 Observability | Reliability | M | ⭐⭐⭐ | 🟡 | 1–2 | Pipeline health | | Observability Engineering — Majors |
+| 🔥 | 🐳 Docker | Infra | O | ⭐⭐⭐ | 🟡 | 1–2 | Containers | | Docker Deep Dive — Mouat |
+| 🔥 | 🐞 Debugging | Reliability | M | ⭐⭐⭐ | 🟡 | 1–2 | Failures | | Debugging Teams — Ousterhout |
+| 🔥 | 🛡️ Governance | Governance | M | ⭐⭐ | 🟢 | 1–2 | Privacy | | Data Governance — Seiner |
+| 🔥 | 💰 Cost Optimisation | FinOps | M | ⭐⭐⭐ | 🟡 | 1–2 | Cloud economics | | Cloud FinOps — J. Willis |
 
 </details>
 
@@ -113,16 +106,14 @@ We’re building your expertise from the ground up so that working with code and
 
 > Enterprise-scale data platform design
 
-| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
-|:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
-| 🔥 | 🧱 Medallion Architecture | Architecture | M | ⭐⭐⭐⭐ | 🔴 | 2 | Bronze–Silver–Gold design | [link]() |
-|  | 🕸️ Data Mesh Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Domain-driven data ownership | [link]() |
-|  | ⚡ Real-time Streaming Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Event-driven platforms | [link]() |
-|  | 💰 Cost Optimization | Concepts | O | ⭐⭐⭐ | 🟡 | 1–2 | Reduce cloud compute cost | [link]() |
-|  | 🌍 Multi-cloud Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Cross-cloud resilience | [link]() |
-| 🔥 | 🗂️ Data Catalog & Metadata | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Discoverability and lineage | [link]() |
-|  | 📈 Platform Observability Strategy | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | End-to-end monitoring | [link]() |
-|  | 🆘 Disaster Recovery | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | Failover and resilience | [link]() |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req | ⭐ Diff | 🎚️ Level | ⏱️ Weeks | 📝 Notes | 🔗 Study Link | 📚 Book |
+|:--:|------|----------|:--:|:--:|:--:|:--:|------|------|------|
+| 🔥 | 🧱 Medallion | Architecture | M | ⭐⭐⭐⭐ | 🔴 | 2 | Bronze-Silver-Gold | | Designing Data Platforms — Kleppmann (chapters) |
+| 🔥 | 🕸️ Data Mesh | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Domain ownership | | Data Mesh — Zhamak Dehghani |
+| 🔥 | ⚡ Streaming Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Event design | | Streaming Systems — Akidau |
+| 🔥 | 🌍 Multi-cloud | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Cross-cloud | | Cloud Native DevOps — Burns |
+| 🔥 | 🏢 Platform Engineering | Platform | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Self-service infra | | Platform Engineering — M. Richards |
+| 🔥 | 📊 SLAs/SLOs | Reliability | M | ⭐⭐⭐ | 🟡 | 1–2 | Reliability | | Site Reliability Engineering — Google |
 
 
 </details>
