@@ -27,28 +27,110 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 ## 🏗️ **Foundations** <sub>*.. the building blocks*</sub>
 We’re building your expertise from the ground up so that working with code and data feels like a second language. This stage isn’t about rushing—it’s about mastering the essentials through deliberate practice and deep understanding.
 
-| Status | Step | Category | Mandatory/Optional | Note |
-|:------:|------|----------|--------------------|------|
-| - [ ] | Linux / CLI Basics | Fundamentals | Mandatory | Navigate systems and automate tasks via terminal |
-| - [ ] | Git & GitHub | Fundamentals | Mandatory | Track changes and manage code professionally |
-| - [ ] | Networking Basics | Fundamentals | Optional | Understand how systems communicate over networks |
-| - [ ] | Python | Coding | Mandatory | Write scripts to process, clean, and transform data |
-| - [ ] | Data Structures & Algorithms | Fundamentals | Optional | Improve problem-solving and performance thinking |
-| - [ ] | Databases | Theory | Mandatory | Understand how data is stored, indexed, and retrieved |
-| - [ ] | SQL | Coding | Mandatory | You can work with data using SQL |
-| - [ ] | Data Modelling | Theory | Mandatory | Design efficient schemas and relationships |
-| - [ ] | File Formats (CSV, JSON, Parquet, Avro) | Theory | Mandatory | Know how different data formats impact pipelines |
-| - [ ] | APIs & Data Integration | Fundamentals | Mandatory | Extract and ingest data from external systems |
-| - [ ] | ETL / ELT Concepts | Theory | Mandatory | Learn how data is extracted, transformed, and loaded |
-| - [ ] | Batch vs Streaming Concepts | Theory | Mandatory | Understand different data processing patterns |
-| - [ ] | Data Warehousing Fundamentals | Theory | Mandatory | Understand analytical storage and querying patterns |
-| - [ ] | Data Quality Fundamentals | Theory | Mandatory | Validate and monitor data correctness and completeness |
-| - [ ] | Logging & Debugging | Fundamentals | Mandatory | Diagnose failures and monitor pipelines effectively |
-| - [ ] | Testing Fundamentals | Coding | Optional | Ensure pipeline reliability and correctness |
-| - [ ] | Performance & Optimization Basics | Theory | Optional | Improve query and pipeline efficiency |
-| - [ ] | Security & Access Control Basics | Theory | Optional | Manage permissions and protect sensitive data |
-| - [ ] | Cloud Fundamentals (AWS/GCP/Azure) | Fundamentals | Mandatory | Learn core cloud services used in data platforms |
-| - [ ] | Docker Basics | Fundamentals | Optional | Containerise applications for consistent environments |
+# 🏗️ Data Engineering Fundamentals Roadmap
+
+This roadmap is designed to build core data engineering skills step-by-step. The goal is to move beyond "rushing through tutorials" and instead focus on **genuine effort and deep understanding** so that working with data and code feels natural.
+📅 Estimated Timeline: ~6–9 Months (Deep Dive)
+*Note: Progress depends on prior experience and weekly time commitment. Quality of understanding > Speed of completion.*
+## 🏗️ Phase 1: The Foundation (Core Engineering)
+Focus on the environment and the languages used to move data.
+
+| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
+|:------:|------|----------|--------------------|------------|------------------------|------|
+| - [ ] | Linux / CLI Basics | Fundamentals | Mandatory | ⭐⭐ | 1–2 | Navigate systems and automate tasks via terminal |
+| - [ ] | Git & GitHub | Fundamentals | Mandatory | ⭐⭐ | 1 | Track changes and manage code professionally |
+| - [ ] | Shell Scripting Basics | Coding | Optional | ⭐⭐ | 1 | Automate repetitive tasks and simple workflows |
+| - [ ] | Python | Coding | Mandatory | ⭐⭐⭐⭐ | 3–4 | Write scripts to process, clean, and transform data |
+| - [ ] | Networking Basics | Fundamentals | Optional | ⭐⭐ | 1 | Understand how systems communicate over networks |
+| - [ ] | Data Structures & Algorithms | Fundamentals | Optional | ⭐⭐⭐ | 2 | Improve problem-solving and performance thinking |
+
+---
+
+## 💾 Phase 2: Data Storage & Design
+How we structure and save data for efficiency.
+
+| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)* | Notes |
+|:------:|------|----------|--------------------|------------|------------------------|------|
+| - [ ] | Databases | Concepts | Mandatory | ⭐⭐⭐ | 2–3 | Understand how data is stored, indexed, and retrieved |
+| - [ ] | SQL | Coding | Mandatory | ⭐⭐⭐⭐ | 3–4 | Work with data using SQL |
+| - [ ] | Data Modelling | Concepts | Mandatory | ⭐⭐⭐⭐ | 2–3 | Design efficient schemas and relationships |
+| - [ ] | File Formats (CSV, JSON, Parquet, Avro) | Concepts | Mandatory | ⭐⭐⭐ | 1–2 | Know how different data formats impact pipelines |
+| - [ ] | NoSQL Fundamentals | Concepts | Optional | ⭐⭐⭐ | 2 | When to use Document, Key-Value, or Graph stores |
+| - [ ] | Data Warehousing Fundamentals | Concepts | Mandatory | ⭐⭐⭐⭐ | 2–3 | Understand analytical storage and querying patterns |
+| - [ ] | Data Lakehouse Architecture | Concepts | Mandatory | ⭐⭐⭐ | 2 | Shift from Warehouse to Lakehouse (Delta/Iceberg) |
+
+---
+
+## ⚙️ Phase 3: Data Processing & Pipelines
+Moving data from point A to point B at scale.
+
+| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
+|:------:|------|----------|--------------------|------------|------------------------|------|
+| - [ ] | APIs & Data Integration | Fundamentals | Mandatory | ⭐⭐⭐ | 2 | Extract and ingest data from external systems |
+| - [ ] | ETL / ELT Concepts | Concepts | Mandatory | ⭐⭐⭐ | 2 | Learn how data is extracted, transformed, and loaded |
+| - [ ] | Batch vs Streaming Concepts | Concepts | Mandatory | ⭐⭐⭐ | 2 | Understand different data processing patterns |
+| - [ ] | Compute Engines (Spark/Flink) | Fundamentals | Mandatory | ⭐⭐⭐⭐⭐ | 4–6 | Distributed processing for large-scale datasets |
+| - [ ] | Message Queues (Kafka/RabbitMQ Basics) | Concepts | Optional | ⭐⭐⭐⭐ | 2–3 | Understand event-driven data architectures |
+| - [ ] | Orchestration Concepts (Airflow Basics) | Concepts | Optional | ⭐⭐⭐⭐ | 2–3 | Schedule and manage data workflows |
+| - [ ] | Data Quality Fundamentals | Concepts | Mandatory | ⭐⭐⭐ | 1–2 | Validate and monitor data correctness and completeness |
+
+---
+
+## ☁️ Phase 4: Infrastructure & Reliability
+Ensuring the system is secure, scalable, and observable.
+
+| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
+|:------:|------|----------|--------------------|------------|------------------------|------|
+| - [ ] | Cloud Fundamentals (AWS/GCP/Azure) | Fundamentals | Mandatory | ⭐⭐⭐⭐ | 3–4 | Learn core cloud services used in data platforms |
+| - [ ] | Docker Basics | Fundamentals | Optional | ⭐⭐⭐ | 1–2 | Containerise applications for consistent environments |
+| - [ ] | Logging & Debugging | Fundamentals | Mandatory | ⭐⭐⭐ | 1–2 | Diagnose failures and monitor pipelines effectively |
+| - [ ] | Observability & Monitoring Basics | Fundamentals | Optional | ⭐⭐⭐ | 1–2 | Monitor pipelines and detect failures proactively |
+| - [ ] | Testing Fundamentals | Coding | Optional | ⭐⭐⭐ | 1–2 | Ensure pipeline reliability and correctness |
+| - [ ] | Performance & Optimization Basics | Concepts | Optional | ⭐⭐⭐ | 2 | Improve query and pipeline efficiency |
+| - [ ] | Security & Access Control Basics | Concepts | Optional | ⭐⭐ | 1–2 | Manage permissions and protect sensitive data |
+| - [ ] | Data Governance & Privacy | Concepts | Mandatory | ⭐⭐ | 1–2 | Understanding GDPR/HIPAA and data lineage |
+| - [ ] | CI/CD Fundamentals | Fundamentals | Optional | ⭐⭐⭐ | 2 | Automate testing and deployment workflows |
+| - [ ] | Infrastructure as Code Basics | Fundamentals | Optional | ⭐⭐⭐⭐ | 2–3 | Manage infrastructure using code (Terraform etc.) |
+
+---
+
+## 🚀 Phase 5: Advanced Platform & Architecture
+Designing enterprise-grade data platforms with scalability, reliability, and governance.
+
+| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
+|:------:|------|----------|--------------------|------------|------------------------|------|
+| - [ ] | Data Mesh Architecture | Architecture | Optional | ⭐⭐⭐⭐ | 2–3 | Domain-oriented decentralized data ownership |
+| - [ ] | Medallion Architecture | Architecture | Mandatory | ⭐⭐⭐⭐ | 2 | Bronze–Silver–Gold layered data design |
+| - [ ] | Real-time Streaming Architecture | Architecture | Optional | ⭐⭐⭐⭐ | 2–3 | Designing event-driven data platforms |
+| - [ ] | Cost Optimization in Data Platforms | Concepts | Optional | ⭐⭐⭐ | 1–2 | Control cloud and compute costs effectively |
+| - [ ] | Multi-cloud & Hybrid Data Platforms | Architecture | Optional | ⭐⭐⭐⭐ | 2–3 | Design portable and resilient architectures |
+| - [ ] | Data Catalog & Metadata Management | Concepts | Mandatory | ⭐⭐⭐ | 1–2 | Improve discoverability and lineage tracking |
+| - [ ] | Platform Observability Strategy | Architecture | Optional | ⭐⭐⭐⭐ | 2 | End-to-end monitoring of data platform health |
+| - [ ] | High Availability & Disaster Recovery | Architecture | Optional | ⭐⭐⭐⭐ | 2 | Ensure system resilience and failover planning |
+
+---
+
+## 🚀 The "End Game" Capstone Project
+To graduate from this roadmap, build a single project that integrates these skills:
+
+1. **Extraction:** Scrape a public API using **Python** (e.g., Weather or Finance data).
+2. **Containerization:** Wrap your scraper in a **Docker** container.
+3. **Storage:** Land the raw data in a **Cloud Bucket** (S3/GCS) in **JSON** format.
+4. **Transformation:** Use **SQL** or **Spark** to clean the data and convert it to **Parquet**.
+5. **Modeling:** Load it into a **Lakehouse** using a Star Schema.
+6. **Orchestration:** Schedule the whole flow using **Airflow**.
+7. **Reliability:** Implement **Data Quality** checks (e.g., Great Expectations) and **Logging**.
+
+---
+
+## 📖 How to use this 
+1. **Fork** this repository.
+2. Mark your progress by changing `[ ]` to `[x]`.
+3. Commit your notes or small practice scripts to this repo as you learn.
+4. **Master the foundations:** Don't move to Spark until your SQL is solid. Don't move to Airflow until your Python is clean.
+
+---
+*“Mastery is not a function of genius or talent, it is a function of time and intense focus.”*
 
 
 🎯 
