@@ -32,14 +32,12 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 ## 🏗️ **Foundations** <sub>*.. the building blocks*</sub>
 We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond <i>rushing through tutorials</i> and instead focus on <b>genuine effort and deep understanding</b> so that working with data and code feels natural.
    
-          🔥 Priority         ⭐ Difficulty            M = Mandatory · O = Optional              🟢 Easy · 🟡 Medium · 🔴 Hard
-
- 
  
 <details>
 <summary>🧰 Core Engineering </summary>
+
   
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢🟡🔴) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🐧 Linux / CLI Basics | Fundamentals | M | ⭐⭐ | 🟢 | 1–2 | Navigate systems and automate tasks | [link]() |
 | 🔥 | 🌿 Git & GitHub | Fundamentals | M | ⭐⭐ | 🟢 | 1 | Track changes and manage code professionally | [link]() |
@@ -59,7 +57,7 @@ We’re building your expertise from the ground up so that working with code and
 
 > Structure and store data efficiently
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🗄️ Databases | Concepts | M | ⭐⭐⭐ | 🟡 | 2–3 | Understand storage and indexing | [link]() |
 | 🔥 | 🧮 SQL | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Work with data using SQL | [link]() |
@@ -76,7 +74,7 @@ We’re building your expertise from the ground up so that working with code and
 
 > Move data at scale
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🔗 APIs & Data Integration | Fundamentals | M | ⭐⭐⭐ | 🟡 | 2 | Extract data from systems | [link]() |
 | 🔥 | 🔄 ETL / ELT Concepts | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Data transformation patterns | [link]() |
@@ -93,7 +91,7 @@ We’re building your expertise from the ground up so that working with code and
 
 > Secure, scalable, observable systems
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | ☁️ Cloud Fundamentals | Fundamentals | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Core cloud data services | [link]() |
 |  | 🐳 Docker Basics | Fundamentals | O | ⭐⭐⭐ | 🟡 | 1–2 | Containerisation | [link]() |
@@ -112,7 +110,7 @@ We’re building your expertise from the ground up so that working with code and
 
 > Enterprise-scale data platform design
 
-| Priority | Step | Category | Req | Diff | Level | Time<br>Weeks | Notes | Study Link |
+| 🔥 Priority | 🧩 Step | 📂 Category | 📌 Req<br>(M=Mandatory O=Optional) | ⭐ Diff | 🎚️ Level<br>(🟢 Easy 🟡 Med 🔴 Hard) | ⏱️ Time<br>Weeks | 📝 Notes | 🔗 Study Link |
 |:--------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
 | 🔥 | 🧱 Medallion Architecture | Architecture | M | ⭐⭐⭐⭐ | 🔴 | 2 | Bronze–Silver–Gold design | [link]() |
 |  | 🕸️ Data Mesh Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Domain-driven data ownership | [link]() |
