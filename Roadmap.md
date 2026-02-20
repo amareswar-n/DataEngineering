@@ -30,83 +30,126 @@ We’re building your expertise from the ground up so that working with code and
 # 🏗️ Data Engineering Fundamentals Roadmap
 
 This roadmap is designed to build core data engineering skills step-by-step. The goal is to move beyond "rushing through tutorials" and instead focus on **genuine effort and deep understanding** so that working with data and code feels natural.
+
 📅 Estimated Timeline: ~6–9 Months (Deep Dive)
 *Note: Progress depends on prior experience and weekly time commitment. Quality of understanding > Speed of completion.*
-## 🏗️ Phase 1: The Foundation (Core Engineering)
-Focus on the environment and the languages used to move data.
 
-| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
-|:------:|------|----------|--------------------|------------|------------------------|------|
-| - [ ] | Linux / CLI Basics | Fundamentals | Mandatory | ⭐⭐ | 1–2 | Navigate systems and automate tasks via terminal |
-| - [ ] | Git & GitHub | Fundamentals | Mandatory | ⭐⭐ | 1 | Track changes and manage code professionally |
-| - [ ] | Shell Scripting Basics | Coding | Optional | ⭐⭐ | 1 | Automate repetitive tasks and simple workflows |
-| - [ ] | Python | Coding | Mandatory | ⭐⭐⭐⭐ | 3–4 | Write scripts to process, clean, and transform data |
-| - [ ] | Networking Basics | Fundamentals | Optional | ⭐⭐ | 1 | Understand how systems communicate over networks |
-| - [ ] | Data Structures & Algorithms | Fundamentals | Optional | ⭐⭐⭐ | 2 | Improve problem-solving and performance thinking |
+## ⭐ Legend
+Req → M (Mandatory) / O (Optional)  
+🔥 High priority skill  
+⭐ Difficulty level  
+🟢 Easy | 🟡 Medium | 🔴 Hard  
 
 ---
 
-## 💾 Phase 2: Data Storage & Design
-How we structure and save data for efficiency.
+## 🏗️ Phase 1 — Foundation (Core Engineering)
+> Build core engineering skills required for data work
 
-| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)* | Notes |
-|:------:|------|----------|--------------------|------------|------------------------|------|
-| - [ ] | Databases | Concepts | Mandatory | ⭐⭐⭐ | 2–3 | Understand how data is stored, indexed, and retrieved |
-| - [ ] | SQL | Coding | Mandatory | ⭐⭐⭐⭐ | 3–4 | Work with data using SQL |
-| - [ ] | Data Modelling | Concepts | Mandatory | ⭐⭐⭐⭐ | 2–3 | Design efficient schemas and relationships |
-| - [ ] | File Formats (CSV, JSON, Parquet, Avro) | Concepts | Mandatory | ⭐⭐⭐ | 1–2 | Know how different data formats impact pipelines |
-| - [ ] | NoSQL Fundamentals | Concepts | Optional | ⭐⭐⭐ | 2 | When to use Document, Key-Value, or Graph stores |
-| - [ ] | Data Warehousing Fundamentals | Concepts | Mandatory | ⭐⭐⭐⭐ | 2–3 | Understand analytical storage and querying patterns |
-| - [ ] | Data Lakehouse Architecture | Concepts | Mandatory | ⭐⭐⭐ | 2 | Shift from Warehouse to Lakehouse (Delta/Iceberg) |
+<details>
+<summary>View Phase 1 skills</summary>
 
----
+| Status | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+|:------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
+| - [ ] | 🔥 Linux / CLI Basics | Fundamentals | M | ⭐⭐ | 🟢 | 1–2 | Navigate systems and automate tasks | [link]() |
+| - [ ] | 🔥 Git & GitHub | Fundamentals | M | ⭐⭐ | 🟢 | 1 | Track changes and manage code professionally | [link]() |
+| - [ ] | Shell Scripting Basics | Coding | O | ⭐⭐ | 🟢 | 1 | Automate repetitive tasks | [link]() |
+| - [ ] | 🔥 Python | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Write scripts to process and transform data | [link]() |
+| - [ ] | Networking Basics | Fundamentals | O | ⭐⭐ | 🟢 | 1 | Understand system communication | [link]() |
 
-## ⚙️ Phase 3: Data Processing & Pipelines
-Moving data from point A to point B at scale.
+</details>
 
-| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
-|:------:|------|----------|--------------------|------------|------------------------|------|
-| - [ ] | APIs & Data Integration | Fundamentals | Mandatory | ⭐⭐⭐ | 2 | Extract and ingest data from external systems |
-| - [ ] | ETL / ELT Concepts | Concepts | Mandatory | ⭐⭐⭐ | 2 | Learn how data is extracted, transformed, and loaded |
-| - [ ] | Batch vs Streaming Concepts | Concepts | Mandatory | ⭐⭐⭐ | 2 | Understand different data processing patterns |
-| - [ ] | Compute Engines (Spark/Flink) | Fundamentals | Mandatory | ⭐⭐⭐⭐⭐ | 4–6 | Distributed processing for large-scale datasets |
-| - [ ] | Message Queues (Kafka/RabbitMQ Basics) | Concepts | Optional | ⭐⭐⭐⭐ | 2–3 | Understand event-driven data architectures |
-| - [ ] | Orchestration Concepts (Airflow Basics) | Concepts | Optional | ⭐⭐⭐⭐ | 2–3 | Schedule and manage data workflows |
-| - [ ] | Data Quality Fundamentals | Concepts | Mandatory | ⭐⭐⭐ | 1–2 | Validate and monitor data correctness and completeness |
+| ✅ | Phase checkpoint | | | | | | You can script, use git, and work in terminal | |
 
 ---
 
-## ☁️ Phase 4: Infrastructure & Reliability
-Ensuring the system is secure, scalable, and observable.
+## 💾 Phase 2 — Data Storage & Design
+> Structure and store data efficiently
 
-| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
-|:------:|------|----------|--------------------|------------|------------------------|------|
-| - [ ] | Cloud Fundamentals (AWS/GCP/Azure) | Fundamentals | Mandatory | ⭐⭐⭐⭐ | 3–4 | Learn core cloud services used in data platforms |
-| - [ ] | Docker Basics | Fundamentals | Optional | ⭐⭐⭐ | 1–2 | Containerise applications for consistent environments |
-| - [ ] | Logging & Debugging | Fundamentals | Mandatory | ⭐⭐⭐ | 1–2 | Diagnose failures and monitor pipelines effectively |
-| - [ ] | Observability & Monitoring Basics | Fundamentals | Optional | ⭐⭐⭐ | 1–2 | Monitor pipelines and detect failures proactively |
-| - [ ] | Testing Fundamentals | Coding | Optional | ⭐⭐⭐ | 1–2 | Ensure pipeline reliability and correctness |
-| - [ ] | Performance & Optimization Basics | Concepts | Optional | ⭐⭐⭐ | 2 | Improve query and pipeline efficiency |
-| - [ ] | Security & Access Control Basics | Concepts | Optional | ⭐⭐ | 1–2 | Manage permissions and protect sensitive data |
-| - [ ] | Data Governance & Privacy | Concepts | Mandatory | ⭐⭐ | 1–2 | Understanding GDPR/HIPAA and data lineage |
-| - [ ] | CI/CD Fundamentals | Fundamentals | Optional | ⭐⭐⭐ | 2 | Automate testing and deployment workflows |
-| - [ ] | Infrastructure as Code Basics | Fundamentals | Optional | ⭐⭐⭐⭐ | 2–3 | Manage infrastructure using code (Terraform etc.) |
+<details>
+<summary>View Phase 2 skills</summary>
+
+| Status | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+|:------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
+| - [ ] | 🔥 Databases | Concepts | M | ⭐⭐⭐ | 🟡 | 2–3 | Understand storage and indexing | [link]() |
+| - [ ] | 🔥 SQL | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Work with data using SQL | [link]() |
+| - [ ] | 🔥 Data Modelling | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Design schemas and relationships | [link]() |
+| - [ ] | File Formats | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Impact of formats on pipelines | [link]() |
+| - [ ] | NoSQL Fundamentals | Concepts | O | ⭐⭐⭐ | 🟡 | 2 | When to use different stores | [link]() |
+| - [ ] | 🔥 Data Warehousing | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Analytical storage and querying | [link]() |
+| - [ ] | Data Lakehouse Architecture | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Warehouse → Lakehouse shift | [link]() |
+
+</details>
+
+| ✅ | Phase checkpoint | | | | | | You can design schemas and query large datasets | |
 
 ---
 
-## 🚀 Phase 5: Advanced Platform & Architecture
-Designing enterprise-grade data platforms with scalability, reliability, and governance.
+## ⚙️ Phase 3 — Data Processing & Pipelines
+> Move data at scale
 
-| Status | Step | Category | Mandatory/Optional | Difficulty | Time Estimate <br> *( Weeks)*  | Notes |
-|:------:|------|----------|--------------------|------------|------------------------|------|
-| - [ ] | Data Mesh Architecture | Architecture | Optional | ⭐⭐⭐⭐ | 2–3 | Domain-oriented decentralized data ownership |
-| - [ ] | Medallion Architecture | Architecture | Mandatory | ⭐⭐⭐⭐ | 2 | Bronze–Silver–Gold layered data design |
-| - [ ] | Real-time Streaming Architecture | Architecture | Optional | ⭐⭐⭐⭐ | 2–3 | Designing event-driven data platforms |
-| - [ ] | Cost Optimization in Data Platforms | Concepts | Optional | ⭐⭐⭐ | 1–2 | Control cloud and compute costs effectively |
-| - [ ] | Multi-cloud & Hybrid Data Platforms | Architecture | Optional | ⭐⭐⭐⭐ | 2–3 | Design portable and resilient architectures |
-| - [ ] | Data Catalog & Metadata Management | Concepts | Mandatory | ⭐⭐⭐ | 1–2 | Improve discoverability and lineage tracking |
-| - [ ] | Platform Observability Strategy | Architecture | Optional | ⭐⭐⭐⭐ | 2 | End-to-end monitoring of data platform health |
-| - [ ] | High Availability & Disaster Recovery | Architecture | Optional | ⭐⭐⭐⭐ | 2 | Ensure system resilience and failover planning |
+<details>
+<summary>View Phase 3 skills</summary>
+
+| Status | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+|:------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
+| - [ ] | 🔥 APIs & Data Integration | Fundamentals | M | ⭐⭐⭐ | 🟡 | 2 | Extract data from systems | [link]() |
+| - [ ] | 🔥 ETL / ELT Concepts | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Data transformation patterns | [link]() |
+| - [ ] | Batch vs Streaming | Concepts | M | ⭐⭐⭐ | 🟡 | 2 | Processing paradigms | [link]() |
+| - [ ] | 🔥 Compute Engines (Spark/Flink) | Fundamentals | M | ⭐⭐⭐⭐⭐ | 🔴 | 4–6 | Distributed processing | [link]() |
+| - [ ] | Message Queues | Concepts | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Event-driven architecture | [link]() |
+| - [ ] | Orchestration (Airflow) | Concepts | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Workflow scheduling | [link]() |
+| - [ ] | 🔥 Data Quality | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Validate data correctness | [link]() |
+
+</details>
+
+| ✅ | Phase checkpoint | | | | | | You can build batch and streaming pipelines | |
+
+---
+
+## ☁️ Phase 4 — Infrastructure & Reliability
+> Secure, scalable, observable systems
+
+<details>
+<summary>View Phase 4 skills</summary>
+
+| Status | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+|:------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
+| - [ ] | 🔥 Cloud Fundamentals | Fundamentals | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Core cloud data services | [link]() |
+| - [ ] | Docker Basics | Fundamentals | O | ⭐⭐⭐ | 🟡 | 1–2 | Containerisation | [link]() |
+| - [ ] | 🔥 Logging & Debugging | Fundamentals | M | ⭐⭐⭐ | 🟡 | 1–2 | Diagnose pipeline failures | [link]() |
+| - [ ] | Observability & Monitoring | Fundamentals | O | ⭐⭐⭐ | 🟡 | 1–2 | Monitor pipelines | [link]() |
+| - [ ] | Testing Fundamentals | Coding | O | ⭐⭐⭐ | 🟡 | 1–2 | Pipeline reliability | [link]() |
+| - [ ] | Security & Access Control | Concepts | O | ⭐⭐ | 🟢 | 1–2 | Permission management | [link]() |
+| - [ ] | Data Governance & Privacy | Concepts | M | ⭐⭐ | 🟢 | 1–2 | Compliance and lineage | [link]() |
+| - [ ] | CI/CD Fundamentals | Fundamentals | O | ⭐⭐⭐ | 🟡 | 2 | Automated deployments | [link]() |
+| - [ ] | Infrastructure as Code | Fundamentals | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Terraform provisioning | [link]() |
+
+</details>
+
+| ✅ | Phase checkpoint | | | | | | You can run production-grade pipelines | |
+
+---
+
+## 🚀 Phase 5 — Advanced Platform & Architecture
+> Enterprise-scale data platform design
+
+<details>
+<summary>View Phase 5 skills</summary>
+
+| Status | Step | Category | Req | Diff | Level | Time<br>Weeks | Note | Study Link |
+|:------:|------|----------|:---:|:----:|:----:|:-------------:|------|-----------|
+| - [ ] | Medallion Architecture | Architecture | M | ⭐⭐⭐⭐ | 🔴 | 2 | Bronze–Silver–Gold design | [link]() |
+| - [ ] | Data Mesh Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Domain-driven data ownership | [link]() |
+| - [ ] | Real-time Streaming Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Event-driven platforms | [link]() |
+| - [ ] | Cost Optimization | Concepts | O | ⭐⭐⭐ | 🟡 | 1–2 | Reduce cloud compute cost | [link]() |
+| - [ ] | Multi-cloud Architecture | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2–3 | Cross-cloud resilience | [link]() |
+| - [ ] | Data Catalog & Metadata | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Discoverability and lineage | [link]() |
+| - [ ] | Platform Observability Strategy | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | End-to-end monitoring | [link]() |
+| - [ ] | Disaster Recovery | Architecture | O | ⭐⭐⭐⭐ | 🔴 | 2 | Failover and resilience | [link]() |
+
+</details>
+
+| ✅ | Final checkpoint | | | | | | You can design enterprise data platforms | |
 
 ---
 
