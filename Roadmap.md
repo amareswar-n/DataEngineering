@@ -31,8 +31,7 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 
 ## 🏗️ **Foundations** <sub>*.. the building blocks*</sub>
 We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond <i>rushing through tutorials</i> and instead focus on <b>genuine effort and deep understanding</b> so that working with data and code feels natural.
-   
- 
+
 <details>
 <summary>🧰 Core Engineering </summary>
 
@@ -126,6 +125,26 @@ We’re building your expertise from the ground up so that working with code and
 
  *Note: Progress depends on prior experience and weekly time commitment. Quality of understanding > Speed of completion.*
 
+<details>
+<summary>Roadmap cards style</summary>
+  
+## 🏗️ Foundation
+🐧 Linux · 🌿 Git · 🐍 Python
+
+## 💾 Storage
+🗄️ Databases · 🧮 SQL · 🧩 Modelling
+
+## ⚙️ Processing
+🔄 ETL · ⚡ Spark · 🎯 Orchestration
+
+## ☁️ Infra
+☁️ Cloud · 🐳 Docker · 📊 Observability
+
+## 🚀 Architecture
+🧱 Medallion · 🕸️ Mesh · 🌍 Multi-cloud
+
+</details>
+
 ---
 
 ## 🎯 **UDIM - Capstone Project** <sub>*.. the end* </sub>
@@ -152,7 +171,7 @@ We’re building your expertise from the ground up so that working with code and
 <summary>At this point, you won’t know 100% of data engineering, and that’s completely normal. The good news is you already have around 70% of the skills needed to start applying. There’s no reason to wait anymore. Now it’s time to prepare yourself, put your profile together, and start applying for jobs.</summary>
 
 
-
+ </details>
 
 ---
 
@@ -172,3 +191,4 @@ We’re building your expertise from the ground up so that working with code and
    <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/4880cb82-97b2-4b52-b49c-edea05622bde" />
    <summary> more (...) </summary> 
  </details>
+
