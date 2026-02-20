@@ -32,6 +32,9 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 ## 🏗️ **Foundations** <sub>*.. the building blocks*</sub>
 We’re building your expertise from the ground up so that working with code and data feels like a second language. The goal is to move beyond <i>rushing through tutorials</i> and instead focus on <b>genuine effort and deep understanding</b> so that working with data and code feels natural.
 
+    Mastery is not a function of genius or talent, it is a function of time and intense focus.
+
+
 <details>
 <summary>🧰 Core Engineering </summary>
 
@@ -183,7 +186,7 @@ We’re building your expertise from the ground up so that working with code and
 
 ---
 
-*“Mastery is not a function of genius or talent, it is a function of time and intense focus.”*
+
 
 
  <details>
