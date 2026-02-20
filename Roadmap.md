@@ -64,6 +64,7 @@ We’re building your expertise from the ground up so that working with code and
 | 🔥 | 🗄️ Databases | Concepts | M | ⭐⭐⭐ | 🟡 | 2–3 | Understand storage and indexing | [link]() |
 | 🔥 | 🧮 SQL | Coding | M | ⭐⭐⭐⭐ | 🔴 | 3–4 | Work with data using SQL | [link]() |
 | 🔥 | 🧩 Data Modelling | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Design schemas and relationships | [link]() |
+| 🔥 | 🏗️ dbt (Data Build Tool) | Transformation | M | ⭐⭐⭐ | 🟡 | 1–2 | Transform, test, and document data in warehouses | [link]() |
 |  | 📄 File Formats | Concepts | M | ⭐⭐⭐ | 🟡 | 1–2 | Impact of formats on pipelines | [link]() |
 |  | 📚 NoSQL Fundamentals | Concepts | O | ⭐⭐⭐ | 🟡 | 2 | When to use different stores | [link]() |
 | 🔥 | 🏢 Data Warehousing | Concepts | M | ⭐⭐⭐⭐ | 🔴 | 2–3 | Analytical storage and querying | [link]() |
