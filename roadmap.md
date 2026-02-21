@@ -1,86 +1,107 @@
-# Data Engineer Roadmap
+# Data Engineer Roadmap 2026
 
-A comprehensive guide to becoming a Data Engineer, integrating core roadmap stages with essential tools and techniques.
-
----
-
-## 1. Pre-requisites
-* **Programming Skills**: 
-    * Python (Pandas, NumPy, Scikit-learn)
-    * Java / Scala (for Spark/Hadoop environments)
-* **Computer Science Foundations**: Data Structures (Trees, Graphs, Hash Maps), Algorithms (Sorting, Searching).
-* **Version Control**: Git (Branching, Merging, Pull Requests), GitHub.
-* **Terminal**: Linux/Unix Shell Scripting (Bash/Zsh).
-* **Fundamentals**: Networking (TCP/IP, HTTP/S), Distributed Systems (Consistency, Partitioning).
+A comprehensive, industry-standard roadmap for Data Engineering. This guide integrates the formal [roadmap.sh](https://roadmap.sh/data-engineer) structure with specific high-level tools and techniques from the [amareswar-n/DataEngineering](https://github.com/amareswar-n/DataEngineering) repository.
 
 ---
 
-## 2. The Data Engineering Lifecycle
-* **Generation**: Understanding Log Files, API structures, and IoT telemetry.
-* **Storage**: Managing Data Lakes vs. Data Warehouses.
-* **Ingestion**: Change Data Capture (CDC), Batch loading, and Stream ingestion.
-* **Serving**: API development for data access and Dashboarding.
+## 🟢 1. Pre-requisites & Foundations
+The core technical skills required before handling large-scale data systems.
+
+* **Programming Languages**
+    * **Python**: Pandas, NumPy, Scikit-learn, PySpark, FastAPI, Flask.
+    * **Java / Scala**: Essential for Spark core and the Hadoop ecosystem.
+    * **R**: For statistical analysis and data science integration.
+* **Computer Science Basics**
+    * **Data Structures**: Trees, Graphs, Hash Maps, Linked Lists.
+    * **Algorithms**: Sorting, Searching, Complexity Analysis (Big O).
+    * **Design Patterns**: Singleton, Factory, Observer.
+* **Environment & CLI**
+    * **Linux/Unix**: Shell Scripting (Bash/Zsh), Vim/Nano, Cron jobs.
+    * **Networking**: TCP/IP, HTTP/S, DNS, Load Balancers.
+* **Version Control**
+    * **Git**: Branching, Merging, Rebase, Pull Requests.
+    * **Platforms**: GitHub, GitLab, Bitbucket.
 
 ---
 
-## 3. Databases & Data Modeling
-### Database Fundamentals
-* **Theories**: CAP Theorem (Consistency, Availability, Partitioning).
-* **Concepts**: ACID Transactions, Normalization (1NF, 2NF, 3NF), and Indexing strategies.
-* **Modeling**: Star Schema, Snowflake Schema, and SCD (Slowly Changing Dimensions) Types 1, 2, and 3.
+## 🟡 2. The Data Engineering Lifecycle
+Understanding the architectural flow of data through an organization.
 
-### Relational Databases (SQL)
-* **PostgreSQL / MySQL**: Primary open-source relational stores.
-* **Amazon Aurora**: High-performance managed SQL.
-
-### NoSQL Databases
-* **Document**: MongoDB, CouchDB.
-* **Columnar**: Apache Cassandra, HBase (Big Table architecture).
-* **Key-Value**: Redis (Caching), DynamoDB.
-* **Graph**: Neo4j (Relationship mapping).
+* **Data Generation**: Log Files, APIs, Webhooks, IoT Telemetry, Event-driven architecture.
+* **Data Storage**: Object Storage (S3/GCS), Cold vs. Hot Storage.
+* **Data Ingestion**: Change Data Capture (CDC), Pull-based vs. Push-based ingestion.
+* **Data Serving**: REST/gRPC APIs, Data Catalogs, BI Dashboards.
 
 ---
 
-## 4. Data Warehousing & Architecture
-* **Cloud Warehouses**: Snowflake, Google BigQuery, Amazon Redshift.
-* **Architectures**: 
-    * **Data Lakehouse**: Databricks (Delta Lake), Apache Hudi, Apache Iceberg.
-    * **Modern Concepts**: Data Mesh (Domain-oriented) and Data Fabric.
+## 🔵 3. Databases & Data Modeling
+The heart of data engineering: how data is structured and stored.
+
+* **Database Fundamentals**
+    * **Theory**: CAP Theorem, ACID vs. BASE, OLTP vs. OLAP.
+    * **Techniques**: Indexing, Sharding, Partitioning, Materialized Views.
+* **Data Modeling**
+    * **Methodologies**: Kimball (Star Schema) vs. Inmon (Normalized).
+    * **Techniques**: Snowflake Schema, SCD (Slowly Changing Dimensions) Types 1, 2, and 3.
+* **Relational Databases (SQL)**
+    * PostgreSQL, MySQL, MariaDB, Oracle, SQL Server.
+* **NoSQL Databases**
+    * **Document**: MongoDB, CouchDB.
+    * **Wide Column**: Apache Cassandra, HBase, Google BigTable.
+    * **Key-Value**: Redis, DynamoDB.
+    * **Graph**: Neo4j, AWS Neptune.
+    * **Search**: Elasticsearch, Solr.
 
 ---
 
-## 5. Cloud Computing
-* **AWS**: S3, EC2, Lambda (Serverless), AWS Glue (ETL).
-* **Azure**: Data Factory, Blob Storage, Azure Synapse Analytics.
-* **Google Cloud (GCP)**: Cloud Functions, Pub/Sub, Dataflow.
+## 🟣 4. Data Warehousing & Architecture
+Scaling data for analytics and modern business intelligence.
+
+* **Cloud Warehouses**: Snowflake, Google BigQuery, Amazon Redshift, Firebolt.
+* **Data Lakes & Lakehouses**: Databricks (Delta Lake), Apache Iceberg, Apache Hudi.
+* **Query Engines**: Presto, Trino, Apache Drill, Amazon Athena.
+* **Modern Paradigms**: Data Mesh (Domain-oriented), Data Fabric, Semantic Layers.
 
 ---
 
-## 6. Data Ingestion & Pipelines
-* **Orchestration**: Apache Airflow (DAGs), dbt (Analytics Engineering), Prefect, Dagster.
-* **Processing Engines**: Apache Spark (PySpark/SparkSQL), Apache Flink (Streaming), Apache Beam.
-* **Hadoop Ecosystem**: HDFS, Hive, YARN.
-* **Ingestion Tools**: Fivetran, Airbyte (Open-source EL).
+## 🟠 5. Ingestion, Pipelines & Processing
+The "Engineering" part—moving and transforming data at scale.
+
+* **Orchestration**: Apache Airflow (DAGs), Dagster, Prefect, Control-M.
+* **Processing Engines**:
+    * **Batch**: Apache Spark (PySpark/SparkSQL), Hadoop MapReduce.
+    * **Streaming**: Apache Flink, Spark Streaming, KSQL, Apache Beam.
+* **ETL / ELT Tools**: dbt (Analytics Engineering), Fivetran, Airbyte, Talend.
+* **Hadoop Ecosystem**: HDFS, Hive (Beeline, Metastore), YARN, Zookeeper.
 
 ---
 
-## 7. Infrastructure & Operations
-* **Containerization**: Docker (Images/Containers), Kubernetes (Pod Management, Helm Charts).
-* **CI/CD**: GitHub Actions, Jenkins, GitLab CI.
-* **Infrastructure as Code (IaC)**: Terraform, AWS CDK, Pulumi.
-* **Observability**: Prometheus, Grafana, Datadog (Logging & Monitoring).
+## 🔴 6. Infrastructure & Operations (DataOps)
+Ensuring systems are reliable, scalable, and automated.
+
+* **Containerization**: Docker, Kubernetes (K8s), Helm.
+* **Infrastructure as Code (IaC)**: Terraform, Ansible, AWS CDK, Pulumi.
+* **CI / CD**: GitHub Actions, Jenkins, GitLab CI, ArgoCD.
+* **Monitoring & Observability**: Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Datadog.
 
 ---
 
-## 8. Messaging & Real-time Systems
-* **Streaming**: Apache Kafka (Producers, Consumers, Topics), Redpanda.
+## ⚪ 7. Messaging & Real-Time Systems
+Handling high-velocity data streams.
+
+* **Streaming Platforms**: Apache Kafka (Producers, Consumers, Connect), Redpanda.
 * **Message Queues**: RabbitMQ, AWS SQS/SNS.
-* **Techniques**: Exactly-once processing, Windowing (Tumbling, Sliding).
+* **Concepts**: Async vs. Sync, Exactly-once processing, Windowing (Tumbling, Sliding).
 
 ---
 
-## 9. Governance, Security & Quality
-* **BI & Visualization**: Power BI, Tableau, Looker, Apache Superset.
-* **Security**: Data Encryption (at rest/in transit), RBAC (Role-Based Access Control), Data Masking.
-* **Quality**: Great Expectations (Data Validation), Data Lineage (OpenLineage).
-* **Compliance**: GDPR, CCPA, and Metadata Management.
+## 🟤 8. Governance, Security & Quality
+The final layer for enterprise-ready data.
+
+* **Data Quality**: Great Expectations, Deequ, Soda.
+* **Security**: RBAC (Role-Based Access Control), Data Encryption, Masking, Tokenization.
+* **Lineage & Metadata**: Amundsen, DataHub, Apache Atlas, OpenLineage.
+* **BI & Serving**: Power BI, Tableau, Looker, Apache Superset, Metabase.
+* **Regulations**: GDPR, CCPA, EU AI Act.
+
+---
