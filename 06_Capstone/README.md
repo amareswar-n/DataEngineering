@@ -1,4 +1,4 @@
-# 🚀 Welcome to the Data Engineering Capstone directory. This repository contains 20 progressive projects spanning from foundational data extraction to elite-level enterprise platform engineering. 
+# This repository contains 20 progressive projects spanning from foundational data extraction to elite-level enterprise platform engineering. 
 
 ## 📂 Project Roadmap & Directory Index
 
