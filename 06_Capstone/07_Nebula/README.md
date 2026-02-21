@@ -4,29 +4,33 @@
 **Primary Focus:** Data Modelling Depth
 
 ## 📝 Overview
-Build a deep Kimball dimensional model (Fact/Dimensions, SCD Type 2) using dbt.
+Build a deep Kimball dimensional model (Fact/Dimensions, SCD Type 2).
+
+## 🏗️ Architecture Diagram
+```mermaid
+erDiagram
+    FACT_SALES ||--o{ DIM_CUSTOMER : "purchased by"
+    FACT_SALES ||--o{ DIM_PRODUCT : "includes"
+    FACT_SALES ||--o{ DIM_DATE : "occurred on"
+```
 
 ## 🛠️ Tech Stack
-* dbt, Kimball Methodology
+* dbt, Kimball
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [E-commerce/Retail dataset](https://www.google.com/search?q=E-commerce/Retail+dataset)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Data Modelling Depth**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [Retail dataset](https://www.google.com/search?q=Retail+dataset)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Data Modelling Depth**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

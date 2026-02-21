@@ -4,29 +4,35 @@
 **Primary Focus:** Reliability Engineering
 
 ## 📝 Overview
-Perform chaos engineering on your Kafka/Airflow clusters to ensure pipeline resilience.
+Perform chaos engineering on clusters to ensure pipeline resilience.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph LR
+    A[Kubernetes Cluster] --> B(Kafka Pods)
+    A --> C(Spark Pods)
+    D{Chaos Mesh} -->|Inject Network Delay| B
+    D -->|Kill Pod| C
+    E[Monitoring] -->|Verifies Auto-recovery| A
+```
 
 ## 🛠️ Tech Stack
-* Chaos Mesh, Kubernetes
+* Chaos Mesh, K8s
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
 * **Primary Data Source:** [Streaming Pipeline](https://www.google.com/search?q=Streaming+Pipeline)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Reliability Engineering**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Reliability Engineering**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

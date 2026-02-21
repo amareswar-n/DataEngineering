@@ -4,29 +4,33 @@
 **Primary Focus:** Partitioning
 
 ## 📝 Overview
-Process massive datasets using PySpark, focusing on optimal partitioning and bucketing strategies.
+Process massive datasets using PySpark, focusing on optimal partitioning.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph LR
+    A[(Large Unpartitioned CSVs)] -->|PySpark Read| B(Spark Cluster Workers)
+    B -->|Shuffle & Sort| C(Optimized DataFrame)
+    C -->|Write Parquet| D[(S3 Partitioned by Year/Month)]
+```
 
 ## 🛠️ Tech Stack
-* PySpark, AWS S3/HDFS
+* PySpark, S3
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [NY TLC Trip Data (simulating telemetry)](https://www.google.com/search?q=NY+TLC+Trip+Data+(simulating+telemetry))
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Partitioning**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [NY TLC Trip Data](https://www.google.com/search?q=NY+TLC+Trip+Data)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Partitioning**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

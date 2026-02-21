@@ -4,29 +4,34 @@
 **Primary Focus:** Multi-stage Orchestration
 
 ## 📝 Overview
-Orchestrate a complex DAG that triggers external compute clusters and subsequent dbt transformations.
+Orchestrate a complex DAG triggering external compute and dbt transformations.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph TD
+    A((Airflow)) -->|API Trigger| B[Databricks Spark Job (ETL)]
+    B --> C{Sensor Check}
+    C -->|Success| D[dbt Cloud Job (Transform)]
+    D --> E[BI Refresh Alert]
+```
 
 ## 🛠️ Tech Stack
 * Airflow, Databricks, dbt
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [Financial Market Data](https://www.google.com/search?q=Financial+Market+Data)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Multi-stage Orchestration**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [Market Data](https://www.google.com/search?q=Market+Data)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Multi-stage Orchestration**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

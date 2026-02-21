@@ -4,29 +4,33 @@
 **Primary Focus:** Multi-region Architecture
 
 ## 📝 Overview
-Deploy a highly available data architecture spanning multiple geographic regions using IaC.
+Deploy a highly available data architecture spanning multiple geographic regions.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph LR
+    A[us-east-1 Storage] <-->|Cross-Region Replication| B[eu-west-1 Storage]
+    C[Global Route53] -->|Latency Routing| D[API Gateway US]
+    C -->|Latency Routing| E[API Gateway EU]
+```
 
 ## 🛠️ Tech Stack
-* Terraform, AWS/GCP Multi-region
+* Terraform, AWS Multi-region
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [Global User Data](https://www.google.com/search?q=Global+User+Data)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Multi-region Architecture**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [Global Data](https://www.google.com/search?q=Global+Data)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Multi-region Architecture**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

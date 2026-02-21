@@ -4,29 +4,34 @@
 **Primary Focus:** Lakehouse Architecture
 
 ## 📝 Overview
-Establish a local or cloud-based Lakehouse to store large volumes of structured and semi-structured data.
+Establish a Lakehouse to store large volumes of structured and semi-structured data.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph TD
+    A[Raw Data Streams] --> B[(S3 Raw Zone)]
+    B -->|Spark| C[(Iceberg Tables / Silver)]
+    C -->|Spark SQL| D[(Iceberg Marts / Gold)]
+    D --> E[Trino / Athena Query Engine]
+```
 
 ## 🛠️ Tech Stack
-* Apache Iceberg/Delta Lake, AWS S3
+* Apache Iceberg, AWS S3
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
 * **Primary Data Source:** [Global Weather Data](https://www.google.com/search?q=Global+Weather+Data)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Lakehouse Architecture**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Lakehouse Architecture**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

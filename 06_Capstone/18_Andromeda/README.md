@@ -4,29 +4,32 @@
 **Primary Focus:** Multi-cloud
 
 ## 📝 Overview
-Build a pipeline that seamlessly orchestrates data movement and processing across 3 major cloud providers.
+Orchestrate data movement across 3 major cloud providers.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph LR
+    A[(AWS S3)] -->|Azure Data Factory| B[(Azure ADLS)]
+    B -->|GCP Omni| C[(Google BigQuery)]
+```
 
 ## 🛠️ Tech Stack
-* Azure Data Factory, GCP BigQuery, AWS S3
+* ADF, BigQuery, S3
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [Inter-cloud transfers](https://www.google.com/search?q=Inter-cloud+transfers)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Multi-cloud**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [Inter-cloud](https://www.google.com/search?q=Inter-cloud)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Multi-cloud**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

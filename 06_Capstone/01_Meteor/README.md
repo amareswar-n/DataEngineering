@@ -6,27 +6,30 @@
 ## 📝 Overview
 Build a daily batch ETL script to extract raw CSVs, clean them, and load them into a local Postgres database.
 
+## 🏗️ Architecture Diagram
+```mermaid
+graph LR
+    A[Raw CSV File] -->|Python/Pandas| B(Data Cleaning & Transfomation)
+    B -->|SQLAlchemy| C[(PostgreSQL DB)]
+```
+
 ## 🛠️ Tech Stack
 * Python, Pandas, PostgreSQL
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
 * **Primary Data Source:** [Kaggle Space Missions Dataset](https://www.google.com/search?q=Kaggle+Space+Missions+Dataset)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Batch ETL**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Batch ETL**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

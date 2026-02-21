@@ -4,29 +4,33 @@
 **Primary Focus:** CDC Pipelines
 
 ## 📝 Overview
-Capture Change Data (CDC) from an operational database and stream it to a data warehouse.
+Capture Change Data (CDC) from an operational database to stream to a warehouse.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph LR
+    A[(MySQL Binlog)] -->|Debezium Connector| B(Kafka CDC Topic)
+    B -->|Kafka Connect / Snowpipe| C[(Snowflake Raw Landing)]
+    C -->|Stream/Task| D[(Snowflake Target Tables)]
+```
 
 ## 🛠️ Tech Stack
 * Debezium, Kafka, Snowflake
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [Transactional OLTP DB (MySQL)](https://www.google.com/search?q=Transactional+OLTP+DB+(MySQL))
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **CDC Pipelines**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [MySQL DB](https://www.google.com/search?q=MySQL+DB)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **CDC Pipelines**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```

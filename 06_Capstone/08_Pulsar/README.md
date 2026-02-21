@@ -4,29 +4,34 @@
 **Primary Focus:** Quality Checks
 
 ## 📝 Overview
-Integrate data quality testing into your pipelines to halt processing if anomalies are detected.
+Integrate data quality testing to halt pipelines upon anomaly detection.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph TD
+    A[Airflow Task: Extract] --> B[Airflow Task: Load Staging]
+    B --> C{Great Expectations Suite}
+    C -->|Pass| D[Transform Data]
+    C -->|Fail| E[Halt Pipeline & Alert Slack]
+```
 
 ## 🛠️ Tech Stack
 * Great Expectations, Airflow
 
 ## 📂 Directory Structure
-This project follows a production-grade structure:
-* `/src` - Core extraction and transformation scripts
-* `/tests` - Unit and data quality tests
+* `/src` - Core processing scripts
+* `/tests` - Data quality and unit tests
 * `/dags` - Orchestration logic
-* `/dbt` - Analytical transformations
-* `/infrastructure` - Infrastructure as Code (IaC) / Docker setups
-* `/docs` - Architecture diagrams
+* `/infrastructure` - IaC and Docker setups
 * `/config` - Pipeline configurations
 
 ## 📊 Data Sources & Requirements
-* **Primary Data Source:** [Messy Sensor Data](https://www.google.com/search?q=Messy+Sensor+Data)
-* **Requirements:**
-  1. Set up the local/cloud environment using files in `/infrastructure`.
-  2. Ingest raw data from the provided source.
-  3. Apply the core concept of **Quality Checks**.
-  4. Ensure all tests in `/tests` pass via CI/CD.
+* **Primary Data Source:** [Sensor Data](https://www.google.com/search?q=Sensor+Data)
+* **Goal:** Set up infrastructure, ingest raw data, and implement **Quality Checks**.
 
-## 📖 Useful Documentation
-* [Data Engineering Zoomcamp (Reference)](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-* [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+## 🚀 Quick Start
+```bash
+make setup
+make up
+make run
+```
