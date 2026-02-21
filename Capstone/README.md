@@ -1,7 +1,0 @@
-# Capstone
-
-Notes:
-
-Projects:
-
-Resources:
