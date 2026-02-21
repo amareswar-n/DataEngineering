@@ -74,9 +74,11 @@ The data engineering role is defined by its specialized skill set. Data engineer
 ## Data pipelines: ETL vs. ELT
 When building a pipeline, a data engineer automates the data integration process with scripts—lines of code that perform repetitive tasks. Depending on their organization's needs, data engineers construct pipelines in one of two formats: ETL or ELT.
 
-### ETL: extract, transform, load. ETL pipelines automate the retrieval and storage of data in a database. The raw data is extracted from the source, transformed into a standardized format by scripts and then loaded into a storage destination. ETL is the most commonly used data integration method, especially when combining data from multiple sources into a unified format.
+### ETL: extract, transform, load.
+ETL pipelines automate the retrieval and storage of data in a database. The raw data is extracted from the source, transformed into a standardized format by scripts and then loaded into a storage destination. ETL is the most commonly used data integration method, especially when combining data from multiple sources into a unified format.
 
-### ELT: extract, load, transform. ELT pipelines extract raw data and import it into a centralized repository before standardizing it through transformation. The collected data can later be formatted as needed on a per use basis, offering a higher degree of flexibility than ETL pipelines.
+### ELT: extract, load, transform. 
+ELT pipelines extract raw data and import it into a centralized repository before standardizing it through transformation. The collected data can later be formatted as needed on a per use basis, offering a higher degree of flexibility than ETL pipelines.
 
 ## Data storage solutions
 The systems that data engineers create often begin and end with data storage solutions: harvesting data from one location, processing it and then depositing it elsewhere at the end of the pipeline.
