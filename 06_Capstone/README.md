@@ -24,3 +24,30 @@
 | 18 | [18_Andromeda](./18_Andromeda) | Multi-cloud Ops | Orchestrate data movement and processing across 3 major cloud providers. | Elite | Azure Data Factory, GCP BigQuery, AWS S3 | [preview](./18_Andromeda/README.md#%EF%B8%8F-architecture-diagram) | ⬜ |
 | 19 | [19_EventHorizon](./19_EventHorizon) | Governance | Create a self-service platform with metadata management and strict SLAs. | Elite | DataHub, Terraform, SLA alerting | [preview](./19_EventHorizon/README.md#%EF%B8%8F-architecture-diagram) | ⬜ |
 | 20 | [20_Singularity](./20_Singularity) | AI/Enterprise | Governed, self-service, hybrid architecture supporting BI and ML simultaneously. | Ultimate | Medallion + Mesh, Real-time + ML, Data Contracts | [preview](./20_Singularity/README.md#%EF%B8%8F-architecture-diagram) | ⬜ |
+
+
+
+
+
+|#|Project|Domain|Complexity|Signal|Architecture|Diagram|Status|
+|---|---|---|---|---|---|---|---|
+|1|[00_Aurora](./00_Aurora)|Finance|Beginner|⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|2|[01_Polaris](./01_Polaris)|Retail|Beginner|⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|3|[02_Vega](./02_Vega)|Retail|Beginner|⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|4|[03_Orion](./03_Orion)|Logs|Beginner+|⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|5|[04_Nebula](./04_Nebula)|IoT|Intermediate|⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|6|[05_GalacticCore](./05_GalacticCore)|AdTech|Intermediate|⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|7|[06_CosmicWeb](./06_CosmicWeb)|MultiDomain|Intermediate+|⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|8|[07_Atlas](./07_Atlas)|CDC|Intermediate+|⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|9|[08_Pulsar](./08_Pulsar)|IoT|Advanced|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|10|[09_Quasar](./09_Quasar)|Gaming|Advanced|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|11|[10_Hypernova](./10_Hypernova)|Hybrid|Advanced+|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|12|[11_Magnetar](./11_Magnetar)|Telecom|Advanced+|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|13|[12_DarkMatter](./12_DarkMatter)|Observability|Expert|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|14|[13_EventHorizon](./13_EventHorizon)|MultiRegion|Expert|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|15|[14_Wormhole](./14_Wormhole)|MultiCloud|Expert+|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|16|[15_BlackHole](./15_BlackHole)|Reliability|Expert+|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|17|[16_Singularity](./16_Singularity)|Mesh|Elite|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|18|[17_NovaPipeline](./17_NovaPipeline)|Platform|Elite|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|19|[18_StellarForge](./18_StellarForge)|Lakehouse|Elite+|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
+|20|[19_SuperNova](./19_SuperNova)|Enterprise|Ultimate|⭐⭐⭐⭐⭐|Python, dbt, Spark|preview|⬜|
