@@ -5,9 +5,9 @@ Before specializing, you must master these core pillars as shown in the foundati
 
 * **Programming Skills**
     * **Languages**: Python (Recommended)
-    *                Java
-    *                Scala
-    *                Go.
+                     Java
+                     Scala
+                     Go
     * **Advanced Techniques**: Functional programming in Scala, JVM tuning for Java/Scala.
 * **Data Structures and Algorithms**
     * **Core Concepts**: Arrays, Linked Lists, Stacks, Queues.
