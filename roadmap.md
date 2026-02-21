@@ -1,4 +1,6 @@
-# [![image](https://private-user-images.githubusercontent.com/16413657/552805310-f2b09519-8f88-45f2-8163-0d0256a16a60.png)](https://github.com/amareswar-n/DataEngineering) The Enterprise Data Engineering Roadmap (24-Week FAANG Sprint)
+# WIP -- DO NOT USE --- 
+
+https://roadmap.sh/data-engineer
 
 *This roadmap uses my core curriculum as the foundation, enriched with deep-dive technical sub-topics from industry leaders (Codebasics, Seattle Data Guy, Sumit Mittal, Data with Baraa, and Roadmap.sh). Every topic is scoped to a 1-week sprint.*
 
