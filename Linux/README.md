@@ -1,0 +1,7 @@
+# Linux
+
+Notes:
+
+Projects:
+
+Resources:
