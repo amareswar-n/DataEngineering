@@ -4,6 +4,9 @@ A comprehensive, industry-standard roadmap for mastering the modern data stack, 
 
 ---
 
+https://www.ibm.com/think/topics/data-management-guide#605511093
+
+
 ## 🧭 0. What is Data Engineering
 * **📊 Data Engineering vs Data Science**: Data engineers build and maintain the systems and "pipes" that allow data scientists to extract insights; one focuses on architecture and reliability, the other on modeling and analysis.
 * **🛠️ Skills and Responsibilities**: Responsibilities include designing data models, building scalable pipelines, and ensuring high data availability.
@@ -82,7 +85,10 @@ Decoupling systems using event-driven architectures.
 * **🧱 Data Lake & Lakehouse**: Merging the flexibility of lakes with the performance of warehouses using Databricks or Delta Lake.
 
 ## ⛽ 3.3 Data Ingestion & Pipelines
-* **🚦 Types**: Choosing between Batch (periodic), Real-time (instant), or Hybrid ingestion.
+* **🚦 Types**:
+* -   Batch processing: The most common ingestion method, batch processing collects data in groups (or batches) and sends it to storage at scheduled intervals. This approach is cost-effective and is ideal when real-time updates are not required.
+  -   Real-time processing: Also called “stream processing,” this method continuously ingests and processes data as it is generated. It is critical for AI applications, fraud detection and real-time analytics. However, it requires higher computational resources.
+  -   Hybrid ingestion.
 
 ### 3.3.1 Data Pipelines
 * **⚙️ ETL**: The standard process of Extracting, Transforming, and Loading data into a target analytical system.
