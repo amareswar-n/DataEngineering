@@ -1,0 +1,87 @@
+Continuing my interview experience for a Data Engineer
+
+-Round 2 was focused on real PySpark problem solving
+Experience Level: Senior Data Engineer
+Round 2: PySpark + Distributed Processing + Production Debugging
+
+This round was very different from typical interviews.
+They didn’t ask syntax. They didn't ask single pyspark coding question.
+They asked situations you only understand after working with Spark in production.
+
+Here are some of the questions.
+1. We have a Spark job processing ~300GB daily.
+Recently runtime increased from 40 minutes to 3 hours without code changes.
+How would you investigate?
+They were looking for:
+◦ data growth patterns
+◦ skew detection
+◦ spill indicators
+◦ file count increase
+◦ execution plan changes
+
+2. A join stage shows 200 tasks, but only 5 run at a time while the cluster is idle. What could cause this behavior?
+Discussion around:
+◦ partition imbalance
+◦ skewed keys
+◦ stage barriers
+◦ adaptive execution effects
+
+3. Your aggregation job works fine on 50GB but crashes at 1TB with out-of-memory.
+What design changes would you consider instead of just increasing memory?
+They wanted architectural thinking:
+◦ pre-aggregation
+◦ partition strategy
+◦ incremental processing
+◦ reducing shuffle width
+
+4. You’re writing data to S3 partitioned by date, but downstream jobs are slow because of thousands of small files.
+How would you fix this without breaking ingestion latency?
+Real production discussion:
+◦ compaction strategies
+◦ micro-batching
+◦ merge patterns
+◦ file size targets
+
+5. A broadcast join suddenly fails in production after data growth, even though the table is still “small”.
+What could cause this?
+Topics:
+◦ memory fragmentation
+◦ executor memory pressure
+◦ serialized size vs logical size
+◦ broadcast timeout
+
+6. A Spark job shows low CPU usage but still runs very slowly.
+What would you check first?
+They expected:
+◦ IO wait
+◦ shuffle spill
+◦ skew
+◦ network bottlenecks
+◦ metadata overhead
+
+7. How would you design a Spark pipeline that supports replay/backfill without duplicating results?
+Discussion:
+◦ idempotency
+◦ watermarking
+◦ merge strategies
+◦ checkpointing
+
+8. You notice that increasing cluster size makes the job slower. Why can this happen in distributed systems?
+Focus:
+◦ coordination overhead
+◦ shuffle amplification
+◦ network contention
+
+9. How would you detect and handle a single skewed key causing most of the processing delay?
+Solutions:
+◦ salting
+◦ key isolation
+◦ separate pipeline paths
+◦ partial aggregation
+
+10. We ingest CDC data continuously. How would you design processing so late-arriving updates do not corrupt aggregates?
+Topics:
+◦ merge logic
+◦ window correction
+◦ recomputation boundaries
+◦ state management 
