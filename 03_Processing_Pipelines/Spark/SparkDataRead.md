@@ -1,16 +1,15 @@
 ### How Spark Distributed Joins Work
+## How Spark Distributed Joins Work
 
 ```mermaid
 flowchart TB
 
-%% --------------------------------
-%% 1. Spark Reading Data from S3
-%% --------------------------------
-
+%% DATA SOURCE
 subgraph S3["Source: Amazon S3"]
 A["Data Files"]
 end
 
+%% PARTITIONS
 subgraph Partitions["Logical Partitions (~128MB each)"]
 P1["Partition 0"]
 P2["Partition 1"]
@@ -21,6 +20,7 @@ A --> P1
 A --> P2
 A --> P3
 
+%% SCHEDULER
 subgraph Scheduler["Spark Scheduler"]
 T1["Task 0"]
 T2["Task 1"]
@@ -31,6 +31,7 @@ P1 --> T1
 P2 --> T2
 P3 --> T3
 
+%% EXECUTORS
 subgraph Executors["Executors"]
 E1["Executor 1"]
 E2["Executor 2"]
@@ -40,10 +41,7 @@ T1 --> E1
 T2 --> E2
 T3 --> E1
 
-
-%% --------------------------------
-%% 2. Why Data Must Move Before Join
-%% --------------------------------
+%% JOIN PREPARATION
 
 subgraph Customers["Customers Dataset"]
 C1["Partition 0<br>ID:101<br>ID:19"]
@@ -64,10 +62,7 @@ H --> JP1["Target Partition 0"]
 H --> JP2["Target Partition 1"]
 H --> JP3["Target Partition 2"]
 
-
-%% --------------------------------
-%% 3. Shuffle Stage
-%% --------------------------------
+%% SHUFFLE
 
 subgraph ShuffleSource["Source Partitions"]
 S1["Partition 0"]
@@ -90,14 +85,11 @@ X --> R1
 X --> R2
 X --> R3
 
-
-%% --------------------------------
-%% 4. Executor Join Operation
-%% --------------------------------
+%% EXECUTOR JOIN
 
 subgraph ExecutorTask["Executor Join Task"]
 B["Build Side Rows"]
-HT["Hash Table (in memory)"]
+HT["Hash Table (Memory)"]
 P["Probe Side Rows"]
 J["Joined Output"]
 end
@@ -105,3 +97,27 @@ end
 B --> HT
 P --> HT
 HT --> J
+
+
+%% STYLING
+
+style A fill:#cfe8ff,stroke:#1f6feb,stroke-width:2px
+
+style P1 fill:#e8d9ff
+style P2 fill:#e8d9ff
+style P3 fill:#e8d9ff
+
+style T1 fill:#fff3cd
+style T2 fill:#fff3cd
+style T3 fill:#fff3cd
+
+style E1 fill:#d4f4dd
+style E2 fill:#d4f4dd
+
+style H fill:#ffe0b2
+
+style X fill:#ffd6d6,stroke:#d73a49,stroke-width:2px
+
+style HT fill:#ffe4c4
+style J fill:#c6f6d5
+```
