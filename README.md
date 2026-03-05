@@ -187,7 +187,7 @@ We’re building your expertise from the ground up so that working with code and
 
 ---
 
-## 🎯 **UDIM - Capstone Project** <sub>*.. the end* </sub>
+## 🎯 **SUPERNOVA - Capstone Project** <sub>*.. the end* </sub>
 
 <details>
 <summary>This is where learning stops being theoretical. Projects are how you turn concepts, tools, and code into <b>real understanding</b>.</summary>
