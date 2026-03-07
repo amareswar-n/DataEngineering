@@ -1,6 +1,8 @@
 ## How Spark Distributed Joins Work
 
 ```mermaid
+%%{init: {'theme':'default'}}%%
+
 flowchart LR
 
 %% DATA SOURCE
@@ -17,7 +19,7 @@ A --> P1
 A --> P2
 A --> P3
 
-%% TASK SCHEDULING
+%% SCHEDULER
 subgraph Scheduler["Spark Scheduler"]
 T1["Task 0"]
 T2["Task 1"]
@@ -44,7 +46,7 @@ C["Customers Dataset"]
 O["Orders Dataset"]
 end
 
-%% HASH PARTITION
+%% HASH
 H["Hash(customer_id)"]
 
 C --> H
@@ -61,7 +63,7 @@ H --> S1
 H --> S2
 H --> S3
 
-%% JOIN EXECUTION
+%% JOIN
 subgraph Join["Executor Join Task"]
 B["Build Side"]
 HT["Hash Table"]
@@ -72,4 +74,27 @@ end
 B --> HT
 P --> HT
 HT --> J
+
+%% BOX COLORS
+style A fill:#BBDEFB
+style P1 fill:#E1BEE7
+style P2 fill:#E1BEE7
+style P3 fill:#E1BEE7
+
+style T1 fill:#FFF9C4
+style T2 fill:#FFF9C4
+style T3 fill:#FFF9C4
+
+style E1 fill:#C8E6C9
+style E2 fill:#C8E6C9
+
+style H fill:#FFE0B2
+
+style S1 fill:#FFCDD2
+style S2 fill:#FFCDD2
+style S3 fill:#FFCDD2
+
+style HT fill:#FFE0B2
+style J fill:#C8E6C9
+
 ```
