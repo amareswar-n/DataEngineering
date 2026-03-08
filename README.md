@@ -29,6 +29,59 @@ You’ll debug frequently, investigate failures, and learn how data systems beha
 | Senior | Architecture, reliability, cost optimisation |
 | Staff | Platform design, governance, strategy 
 
+The analytics engineer role is reshaping our industry.
+
+What I'm observing:
+
+The line between DE and AE is blurring:
+
+- DEs writing dbt models
+
+- AEs setting up Airflow DAGs
+
+- Both doing data quality work
+
+The convergence:
+
+- dbt Cloud adding orchestration features
+
+- Orchestration tools adding transformation features
+
+- Everyone touching the "semantic layer"
+
+My take on titles:
+
+"Data Engineer" increasingly means:
+
+- Infrastructure focus
+
+- Python/Spark heavy
+
+- Streaming, real-time
+
+- Platform building
+
+"Analytics Engineer" increasingly means:
+
+- SQL-first
+
+- dbt native
+
+- Business logic focus
+
+- Stakeholder facing
+
+The opportunity:
+
+If you're a DE who can explain business metrics, you're rare.
+
+If you're an AE who can debug infrastructure, you're rare.
+
+The intersection is where the most interesting (and highest-paid) roles are emerging.
+
+Don't get stuck in title wars. Build skills on both sides.
+
+
 ### ⚖️Decide is data engineering right for you?<br>
 
   - [ ]  “**Yes** — this feels right. I want to commit and learn it properly.”
