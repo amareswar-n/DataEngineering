@@ -1,0 +1,153 @@
+No gatekeeping. Here are the platforms where you can get data for your projects:
+
+𝗙𝗼𝗿 𝗴𝗲𝗻𝗲𝗿𝗮𝗹 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 & 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝗼𝗻𝘀:
+
+Kaggle 
+
+20,000+ datasets, competitions, community projects
+
+https://www.kaggle.com/datasets
+
+http://Data.world
+
+Social network for data people — collaborate and write SQL queries directly
+
+https://data.world/
+
+DrivenData
+
+Data science competitions for social good (health, education, development)
+
+https://www.drivendata.org/
+
+FiveThirtyEight
+
+Clean, documented datasets from data journalism articles
+
+https://data.fivethirtyeight.com/
+
+𝗙𝗼𝗿 𝗴𝗼𝘃𝗲𝗿𝗻𝗺𝗲𝗻𝘁 & 𝗽𝘂𝗯𝗹𝗶𝗰 𝘀𝗲𝗰𝘁𝗼𝗿 𝗱𝗮𝘁𝗮:
+
+http://Data.gov (US)
+
+Federal agency data — everything from crime to climate
+
+https://data.gov/
+
+UK Data Service
+
+UK's largest social, economic, and population data collection
+
+https://ukdataservice.ac.uk/
+
+World Bank Open Data
+
+Global development data — finance, health, education, climate
+
+https://data.worldbank.org/
+
+European Union Open Data Portal
+
+EU public sector data across all domains
+
+https://data.europa.eu/en
+
+𝗙𝗼𝗿 𝗰𝗹𝗼𝘂𝗱-𝘀𝗰𝗮𝗹𝗲 𝗱𝗮𝘁𝗮𝘀𝗲𝘁𝘀:
+
+Google BigQuery Public Datasets
+
+Petabyte-scale data you can query with SQL (free tier available)
+
+https://cloud.google.com/bigquery/public-data
+
+AWS Open Data
+
+Massive datasets hosted on Amazon — climate, genomics, satellite imagery
+
+https://registry.opendata.aws/
+
+Microsoft Azure Open Datasets
+
+Curated datasets optimized for Azure ML services
+
+https://azure.microsoft.com/en-us/products/open-datasets/
+
+𝗙𝗼𝗿 𝗮𝗰𝗮𝗱𝗲𝗺𝗶𝗰 & 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵:
+
+UCI Machine Learning Repository
+
+Classic ML datasets — classification, regression, clustering
+
+https://archive.ics.uci.edu/
+
+Harvard Dataverse
+
+Research data across all disciplines from Harvard
+
+https://dataverse.harvard.edu/
+
+Stanford Network Dataset Collection
+
+Social networks, collaboration networks, web graphs
+
+http://snap.stanford.edu/data/
+
+𝗙𝗼𝗿 𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗲𝗱 𝗱𝗼𝗺𝗮𝗶𝗻𝘀:
+
+Quandl (Nasdaq Data Link)
+
+Financial, economic, and alternative data for financial modeling
+
+https://data.nasdaq.com/
+
+Pew Research Center
+
+Public opinion surveys, social trends, demographic research
+
+https://www.pewresearch.org/tools-and-resources/
+
+World Health Organization (WHO)
+
+Global health data and statistics
+
+https://www.who.int/data/gho
+
+IMDb Non-Commercial Datasets
+
+Movie ratings, cast, crew data
+
+https://datasets.imdbws.com/
+
+𝗙𝗼𝗿 𝗱𝗶𝘀𝗰𝗼𝘃𝗲𝗿𝗶𝗻𝗴 𝗱𝗮𝘁𝗮𝘀𝗲𝘁𝘀:
+
+Google Dataset Search
+
+Search engine for datasets across the entire web
+
+https://datasetsearch.research.google.com/
+
+r/datasets (Reddit)
+
+Community sharing and requesting unique datasets
+
+https://www.reddit.com/r/datasets/
+
+Awesome Public Datasets (GitHub)
+
+Curated list organized by topic, constantly updated
+
+https://github.com/awesomedata/awesome-public-datasets
+
+Google Trends
+
+Search interest over time — market research gold
+
+https://trends.google.com/trends/
+
+You can also combine multiple sources for the project, like:
+
+Transaction data (Kaggle)
+
+Economic indicators (World Bank)
+
+Demographic data (census sources)
