@@ -1,0 +1,105 @@
+10 Lesser-Known Data Sources for Your Portfolio
+
+Everyone knows Kaggle and http://Data.gov. I was trying to find sources that are less known:
+
+ 
+
+1. DrivenData
+
+Data science competitions for social good - nonprofits, conservation, public health
+
+https://www.drivendata.org/
+
+Projects: Predict disease outbreaks, identify endangered species from images, optimize vaccine distribution
+
+2. Zindi (Africa's Data Science Platform)
+
+Africa-focused challenges - agriculture, healthcare, financial inclusion
+
+https://zindi.africa/
+
+Projects: Predict crop yields in Kenya, detect fraud in mobile payments, analyze traffic in Lagos
+
+3. Analytics Vidhya DataHack
+
+India's largest data science community - real hackathons with job opportunities
+
+https://datahack.analyticsvidhya.com/
+
+Projects: Time series forecasting, recommendation systems, NLP challenges
+
+I also like the articles published by this amazing resource.
+
+𝗗𝗔𝗧𝗔𝗦𝗘𝗧 𝗥𝗘𝗣𝗢𝗦𝗜𝗧𝗢𝗥𝗜𝗘𝗦 
+
+4. AWS Open Data Registry
+
+600+ datasets hosted on AWS - satellite imagery, genomics, climate, astronomy
+
+https://registry.opendata.aws/
+
+Browse: https://aws.amazon.com/opendata/
+
+Projects: Process satellite imagery, analyze genomic sequences, weather pattern prediction
+
+5. Hugging Face Datasets
+
+100K+ datasets for NLP, computer vision, audio - one-line loading
+
+Link: https://huggingface.co/datasets
+
+Documentation: https://huggingface.co/docs/datasets/
+
+Projects: Multilingual sentiment analysis, image classification, audio transcription
+
+6. OpenML
+
+30K+ datasets with benchmarking - compare your models against others
+
+https://www.openml.org/
+
+Python API: https://docs.openml.org/
+
+Projects: Beat existing benchmarks, reproducible experiments, algorithm comparison
+
+𝗦𝗣𝗘𝗖𝗜𝗔𝗟𝗜𝗭𝗘𝗗 𝗦𝗢𝗨𝗥𝗖𝗘𝗦
+
+7. FiveThirtyEight Data
+
+Data behind their articles - politics, sports, culture, economics
+
+https://github.com/fivethirtyeight/data
+
+Projects: Political forecasting, sports analytics, media trend analysis
+
+8. Registry of Open Data
+
+2,600+ open data portals worldwide - every country's data in one place
+
+Global List: https://opendatainception.io/
+
+EU Open Data: https://data.europa.eu/
+
+Projects: Cross-country comparisons, localized analyses, international benchmarking
+
+9. Yahoo Finance Historical Data
+
+Complete stock market history - any ticker, any timeframe, free forever
+
+https://finance.yahoo.com/
+
+How to use: Search any ticker → "Historical Data" tab → Download CSV
+
+Python API: yfinance library (pip install yfinance)
+
+Projects: Portfolio optimization, stock price prediction, correlation analysis, dividend forecasting
+
+10. Harvard Dataverse
+
+130,000+ research datasets from Harvard and partner institutions
+
+https://dataverse.harvard.edu/
+
+Search: Browse by subject or search specific topics
+
+Projects: Replicate academic studies, work with citation-quality data, interdisciplinary analysis
