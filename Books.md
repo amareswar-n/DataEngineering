@@ -156,6 +156,13 @@ Modern data engineering relies heavily on **cloud infrastructure and distributed
 
 **AWS Certified Data Analytics Study Guide — Richard Maarek** Covers the AWS data ecosystem including S3, Glue, Redshift, EMR, and Kinesis, providing architectural guidance for building cloud-based data platforms.
 
+Data Pipelines Pocket Reference — James Densmore
+→ Quick reference for pipeline patterns. Keep it on your desk.
+
+
+📘 Designing Cloud Data Platforms — Zburivsky & Partner
+→ Cloud architecture decisions explained clearly
+
 <br clear="all" />
 
 ---
@@ -336,3 +343,6 @@ For beginners entering data engineering or analytics, the following progression 
 9. Cloud Computing Concepts, Technology & Architecture  
 
 This learning path gradually develops the expertise required to become a **modern data engineer capable of designing scalable, secure, and reliable data platforms**.
+
+References:
+https://datavidhya.com/blog/best-data-engineering-books/?trk=feed-detail_comments-list_comment-text
