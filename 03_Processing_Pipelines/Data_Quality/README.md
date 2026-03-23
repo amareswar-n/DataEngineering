@@ -39,3 +39,4 @@ Here are the 20 every reliable pipeline needs 👇
 18 · Duplicate Event Detection — ingestion errors land the same event twice
 19 · Aggregation Consistency — if Bronze and Gold disagree, one is wrong
 20 · Historical Comparison — sudden anomalies = upstream changes nobody told you about
+
